@@ -8,7 +8,7 @@
 <img src="images/nbaig.jpg?raw=true"/>
 
 ---
-[Global Health Data Analysis](/projects/Global Health Data Analysis.ipynb)
+[Global Health Data Analysis](https://github.com/bencoleman24/Global-Health-Data-Analysis/blob/main/Global%20Health%20Data%20Analysis.ipynb/)
 <img src="images/gw.jpg?raw=true"/>
 
 
