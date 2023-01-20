@@ -2,9 +2,7 @@ title: Ben Coleman # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Hello! I am a Junior at the Universty of Wisconsin-Madison studying Data Science and Economics graduating in the Spring of 2024. I'm pursuing a career in Data Science and am currently looking for an internship for this upcoming summer. Some areas of interest of mine are machine learning, data analytics, and econometrics. Take a look at some projects I've been working on!
-  <br><br>
-  Second description 
-  <br><br>
+
   <a href="https://www.linkedin.com/in/example/">LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
