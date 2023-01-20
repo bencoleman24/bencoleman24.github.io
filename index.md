@@ -4,7 +4,7 @@
 
 ### Coding Projects
 
-[2023 NBA All-Star Projections](/sample_page)
+[2023 NBA All-Star Projections](/NBA All-Star Projections.ipynb)
 <img src="images/nbaig.jpg?raw=true"/>
 
 ---
