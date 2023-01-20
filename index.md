@@ -4,11 +4,11 @@
 
 ### Coding Projects
 
-[2023 NBA All-Star Projections](/projects/NBA All-Star Projections.ipynb)
+[2023 NBA All-Star Projections]("/projects/NBA All-Star Projections.ipynb")
 <img src="images/nbaig.jpg?raw=true"/>
 
 ---
-[Global Health Data Analysis](/projects/Global Health Data Analysis.ipynb)
+[Global Health Data Analysis]("/projects/Global Health Data Analysis.ipynb")
 <img src="images/gw.jpg?raw=true"/>
 
 
