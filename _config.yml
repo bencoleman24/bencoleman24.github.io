@@ -8,6 +8,3 @@ description: > # your text below (remove <br> elements if you don't need line br
   Email: benbcoleman08@gmail.com
   <a href="https://www.linkedin.com/in/benjamin-coleman02/">LinkedIn Profile</a> 
   
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
