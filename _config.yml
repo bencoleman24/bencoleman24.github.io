@@ -4,7 +4,10 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hello! I'm an undergraduate student at the University of Wisconsin-Madison studying Data Science and Economics, graduating in Spring of 2024. Some areas of interest of mine are machine learning, data analytics, and econometrics. Take a look at some projects I've been working on! 
   <br><br>
   <br><br>
-
+  Phone: 1-773-849-4188
+  Email: benbcoleman08@gmail.com
   <a href="https://www.linkedin.com/in/benjamin-coleman02/">LinkedIn Profile</a> 
   
 remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
