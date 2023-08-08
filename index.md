@@ -6,7 +6,7 @@ Phone: 1-773-849-4188
 Email: benbcoleman08@gmail.com  
 [LinkedIn Profile](https://www.linkedin.com/in/benjamin-coleman02/)
 
-
+---
 ### Coding Projects
 
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
