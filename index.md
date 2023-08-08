@@ -1,3 +1,14 @@
+---
+layout: home
+title: Ben Coleman
+---
+
+Hello! I'm an undergraduate student at the University of Wisconsin-Madison studying Data Science and Economics, graduating in Spring of 2024. Some areas of interest of mine are machine learning, data analytics, and econometrics. Take a look at some projects I've been working on!
+
+Phone: 1-773-849-4188  
+Email: benbcoleman08@gmail.com  
+[LinkedIn Profile](https://www.linkedin.com/in/benjamin-coleman02/)
+
 ### Coding Projects
 
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
