@@ -11,7 +11,6 @@ Email: benbcoleman08@gmail.com
 
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
 
----
 [Global Health Data Analysis](https://nbviewer.org/github/bencoleman24/Global-Health-Data-Analysis/blob/main/Global%20Health%20Data%20Analysis.ipynb/)
 
 ### Writting Samples
