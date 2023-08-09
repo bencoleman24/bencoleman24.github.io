@@ -10,6 +10,10 @@ Email: benbcoleman08@gmail.com
 ### Coding Projects
 
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
+* Analyzing historical NBA data to predict 24 players to be selected to the All-Star team
+* Python, Statistical Modeling (Regression, Classification, Hyperparameter Tuning, Model Evaluation)
+  
+---
 
 [Global Health Data Analysis](https://nbviewer.org/github/bencoleman24/Global-Health-Data-Analysis/blob/main/Global%20Health%20Data%20Analysis.ipynb/)
 
