@@ -10,14 +10,12 @@ Email: benbcoleman08@gmail.com
 ### Coding Projects
 
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
-<img src="images/nbaig.jpg?raw=true"/>
 
 ---
 [Global Health Data Analysis](https://nbviewer.org/github/bencoleman24/Global-Health-Data-Analysis/blob/main/Global%20Health%20Data%20Analysis.ipynb/)
-<img src="images/gw.jpg?raw=true"/>
 
-
-
+### Writting Samples
+[An Overview of the Russia-Ukraine War and its Global Economic Consequences](https://issuu.com/uwequilibrium.com/docs/eq_volume_13_spread_)
 
 
 ---
