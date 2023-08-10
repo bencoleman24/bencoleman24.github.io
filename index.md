@@ -21,7 +21,7 @@ Linkedin: benjamin-coleman02
 - Python, Data Analysis, Data Visualization, Statistical Modeling (Regression, Feature Engineering).
 
 ---
-### Writing Samples
+### Writing Sample
 
 [An Overview of the Russia-Ukraine War and its Global Economic Consequences](https://issuu.com/uwequilibrium.com/docs/eq_volume_13_spread_)
 
