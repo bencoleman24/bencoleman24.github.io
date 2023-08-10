@@ -1,3 +1,5 @@
+## Ben Coleman Portfolio
+
 Hello! I'm an undergraduate student at the University of Wisconsin-Madison studying Data Science and Economics, graduating in Spring of 2024. Some areas of interest of mine are machine learning, data analytics, and econometrics. Take a look at some projects I've been working on!
 
 Contact Me:
