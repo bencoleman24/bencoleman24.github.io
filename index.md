@@ -22,6 +22,7 @@ Email: benbcoleman08@gmail.com
 
 ---
 ### Writing Samples
+
 [An Overview of the Russia-Ukraine War and its Global Economic Consequences](https://issuu.com/uwequilibrium.com/docs/eq_volume_13_spread_)
 
 - An article from the UW-Madison's Undergraduate Journal of Economics, Volume 13, about the Russia-Ukraine conflict and its Economic Consequences.
