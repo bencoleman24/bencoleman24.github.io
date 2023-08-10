@@ -11,18 +11,18 @@ Email: benbcoleman08@gmail.com
 
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
 
-* Analyzing historical NBA data to predict 24 players to be selected to the All-Star team.
-* Python, Statistical Modeling (Regression, Classification, Hyperparameter Tuning, Model Evaluation).
+- Analyzing historical NBA data to predict 24 players to be selected to the All-Star team.
+- Python, Statistical Modeling (Regression, Classification, Hyperparameter Tuning, Model Evaluation).
 
 
 [Global Health Data Analysis](https://nbviewer.org/github/bencoleman24/Global-Health-Data-Analysis/blob/main/Global%20Health%20Data%20Analysis.ipynb/)
 
-* Analyzing global economic/health dataset, utilizing it to learn more about life expectancy predictors.
-* Python, Data Analysis, Data Visualization, Statistical Modeling (Regression, Feature Engineering).
+- Analyzing global economic/health dataset, utilizing it to learn more about life expectancy predictors.
+- Python, Data Analysis, Data Visualization, Statistical Modeling (Regression, Feature Engineering).
 
 ---
 ### Writing Samples
 [An Overview of the Russia-Ukraine War and its Global Economic Consequences](https://issuu.com/uwequilibrium.com/docs/eq_volume_13_spread_)
 
-* An article from the UW-Madison's Undergraduate Journal of Economics, Volume 13, about the Russia-Ukraine conflict and its Economic Consequences.
-* Article on pages 45-48, 24-25 on online version.
+- An article from the UW-Madison's Undergraduate Journal of Economics, Volume 13, about the Russia-Ukraine conflict and its Economic Consequences.
+- Article on pages 45-48, 24-25 on online version.
