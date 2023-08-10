@@ -4,7 +4,7 @@ Contact Me:
 
 Phone: 1-773-849-4188  
 Email: benbcoleman08@gmail.com  
-[LinkedIn Profile](https://www.linkedin.com/in/benjamin-coleman02/)
+Linkedin: benjamin-coleman02
 
 ---
 ### Coding Projects
