@@ -20,6 +20,11 @@ Linkedin: benjamin-coleman02
 - Analyzing global economic/health dataset, utilizing it to learn more about life expectancy predictors.
 - Python, Data Analysis, Data Visualization, Statistical Modeling (Regression, Feature Engineering).
 
+[Climate Change Statistical Analysis](https://github.com/bencoleman24/Climate-Change-Statistical-Analysis)
+
+- A statistical exploration of climate change trends, project for econometrics for big data course.
+- R, Data Management and Preprocessing, Statistical Modeling (Time Series, ARIMA, Regression, Ensemble Learning, Regularization)
+
 ---
 ### Writing Sample
 
