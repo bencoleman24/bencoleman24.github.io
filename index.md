@@ -9,6 +9,11 @@ Linkedin: benjamin-coleman02
 ---
 ### Coding Projects
 
+[Music Recommendation Website](https://github.com/bencoleman24/Music-Recommendation-Website/tree/main)
+
+- A music recommendation website that allows users to select a recommendation model, receive song suggestions based on their choice, and provide feedback on the recommendations.
+- Python (Flask, Pandas, Scikit-Learn, Tensorflow, Spotipy), HTML, CSS, JavaScript
+  
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
 
 - Analyzing historical NBA data to predict 24 players to be selected to the All-Star team.
