@@ -30,3 +30,22 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.contact-info a {
+    font-weight: bold;
+}
