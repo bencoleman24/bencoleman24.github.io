@@ -3,14 +3,9 @@ Hello! I'm an undergraduate student at the University of Wisconsin-Madison study
 
 ## Contact Me:
 
-<div class="contact-info">
-<ul>
-    <li>Phone: 1-773-849-4188</li>
-    <li>Email: [benbcoleman08@gmail.com](mailto:benbcoleman08@gmail.com)</li>
-    <li>Linkedin: [benjamin-coleman02](https://www.linkedin.com/in/benjamin-coleman02)</li>
-</ul>
-</div>
-
+- Phone: 1-773-849-4188  
+- Email: [benbcoleman08@gmail.com](mailto:benbcoleman08@gmail.com)  
+- Linkedin: [benjamin-coleman02](https://www.linkedin.com/in/benjamin-coleman02)
 
 
 ---
