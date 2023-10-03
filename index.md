@@ -14,7 +14,7 @@ Linkedin: [benjamin-coleman02](https://www.linkedin.com/in/benjamin-coleman02)
 [Music Recommendation Website](https://github.com/bencoleman24/Music-Recommendation-Website/tree/main)
 
 - A music recommendation website that allows users to select a recommendation model, receive song suggestions based on their choice, and provide feedback on the recommendations.
-- Python (Flask, Pandas, Scikit-Learn, Tensorflow, Spotipy), HTML, CSS, JavaScript
+- Python (Flask, Pandas, Scikit-Learn, Tensorflow, Spotify API), HTML, CSS, JavaScript
   
 [2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
 
