@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom, #f5f7fa, #e2e8f0); /* subtle gradient */
+    background: linear-gradient(to bottom, #f5f7fa, #e2e8f0);
     color: #333;
     line-height: 1.6;
 }
@@ -12,23 +12,23 @@ header h1 {
     border-bottom: 2px solid #666;
     padding: 10px 0;
     font-family: 'Roboto Slab', serif;
-    color: #2c3e50; /* deep blue color */
+    color: #2c3e50; 
 }
 
 a {
-    color: #e74c3c; /* changed to a vibrant red color */
+    color: #e74c3c; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #c0392b; /* darker shade of red for hover */
+    color: #c0392b; 
 }
 
 .main-content {
     padding: 20px;
     margin: 0 auto;
-    max-width: 1000px; /* centers the main content and gives it a max-width */
+    max-width: 1000px; 
 }
 
 footer {
@@ -51,12 +51,12 @@ footer {
     border: 1px solid #e0e0e0;
     padding: 10px;
     border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
-    transition: transform 0.3s; /* smooth hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
 }
 
 .contact-info li:hover {
-    transform: translateY(-5px); /* subtle lift on hover */
+    transform: translateY(-5px); 
 }
 
 .contact-info a {
@@ -69,10 +69,10 @@ footer {
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .project-card:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* bigger shadow on hover */
-    transform: translateY(-5px); /* subtle lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-5px); 
 }
