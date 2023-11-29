@@ -1,12 +1,4 @@
-Hello! I'm an undergraduate student at the University of Wisconsin-Madison studying Data Science and Economics, graduating in Spring of 2024. Some areas of interest of mine are machine learning, data analytics, and econometrics. Take a look at some projects I've been working on!
-
-
-## Contact Me:
-
-Phone: 1-773-849-4188  
-Email: [benbcoleman08@gmail.com](mailto:benbcoleman08@gmail.com)  
-Linkedin: [benjamin-coleman02](https://www.linkedin.com/in/benjamin-coleman02)
-
+Hello! I'm an undergraduate student at the University of Wisconsin-Madison studying Data Science and Economics, graduating in Spring of 2024. Take a look at some projects I've been working on!
 
 ---
 ### Coding Projects
@@ -26,6 +18,11 @@ Linkedin: [benjamin-coleman02](https://www.linkedin.com/in/benjamin-coleman02)
 
 - Analyzing global economic/health dataset, utilizing it to learn more about life expectancy predictors.
 - Python, Data Analysis, Data Visualization, Statistical Modeling (Regression, Feature Engineering).
+
+[Intro to Big Data Systems](https://github.com/bencoleman24/Intro-to-Big-Data-Systems)
+
+- Projects from Intro to Big Data Systems course (Spring 2023)
+- Python, Docker, Hadoop, Spark, Kafka, Cassandra
 
 [Climate Change Statistical Analysis](https://github.com/bencoleman24/Climate-Change-Statistical-Analysis)
 
