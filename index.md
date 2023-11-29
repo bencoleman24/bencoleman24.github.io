@@ -26,7 +26,7 @@ Hello! I'm an undergraduate student at the University of Wisconsin-Madison study
 
 [Climate Change Statistical Analysis](https://github.com/bencoleman24/Climate-Change-Statistical-Analysis)
 
-- A statistical exploration of climate change trends, project for econometrics for big data course.
+- A statistical exploration of climate change trends, project for Econometrics for Big Data course.
 - R, Data Management and Preprocessing, Statistical Modeling (Time Series, ARIMA, Regression, Ensemble Learning, Regularization)
 
 ---
