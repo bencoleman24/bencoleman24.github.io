@@ -14,16 +14,12 @@ Hello! I'm an undergraduate student at the University of Wisconsin-Madison study
 - A music recommendation website that allows users to select a recommendation model, receive song suggestions based on their choice, and provide feedback on the recommendations.
 - Python (Flask, Pandas, Scikit-Learn, Tensorflow, Spotify API), HTML, CSS, JavaScript
   
-[2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
+[Amazon Product Sentiment Report Generator](https://github.com/bencoleman24/AmazonReviewInsights)
 
-- Analyzing historical NBA data to predict 24 players to be selected to the All-Star team.
-- Python, Statistical Modeling (Regression, Classification, Hyperparameter Tuning, Model Evaluation).
+- Developed a tool for processing and analyzing Amazon product reviews, using advanced sentiment analysis and data visualization techniques.
+- Employed Python with libraries like Hugging Face Transformers, TextBlob, and OpenAI API for accurate sentiment analysis and report generation.
+- Created detailed, user-friendly reports in PDF format, integrating visual data representations using Matplotlib, Seaborn, and ReportLab.
 
-
-[Global Health Data Analysis](https://nbviewer.org/github/bencoleman24/Global-Health-Data-Analysis/blob/main/Global%20Health%20Data%20Analysis.ipynb/)
-
-- Analyzing global economic/health dataset, utilizing it to learn more about life expectancy predictors.
-- Python, Data Analysis, Data Visualization, Statistical Modeling (Regression, Feature Engineering).
 
 [Intro to Big Data Systems](https://github.com/bencoleman24/Intro-to-Big-Data-Systems)
 
