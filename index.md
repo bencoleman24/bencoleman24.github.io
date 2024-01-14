@@ -20,6 +20,10 @@ Hello! I'm an undergraduate student at the University of Wisconsin-Madison study
 - Employed Python with libraries like Hugging Face Transformers, TextBlob, and OpenAI API for accurate sentiment analysis and report generation.
 - Created detailed, user-friendly reports in PDF format, integrating visual data representations using Matplotlib, Seaborn, and ReportLab.
 
+[2023 NBA All-Star Projections](https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/)
+
+- Analyzing historical NBA data to predict 24 players to be selected to the All-Star team.
+- Python, Statistical Modeling (Regression, Classification, Hyperparameter Tuning, Model Evaluation).
 
 [Intro to Big Data Systems](https://github.com/bencoleman24/Intro-to-Big-Data-Systems)
 
