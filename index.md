@@ -3,7 +3,7 @@ Hello! I'm an undergraduate student at the University of Wisconsin-Madison study
 ---
 ### Coding Projects
 
-[Green Space Explorer (In Progress)]()
+[Green Space Explorer (In Progress)](https://github.com/novoaj/GreenSpaceExplorer)
 
 - Developing a full-stack web application that allows users to discover parks and green spaces in their area through a generation of an interactive map.
 - This application will have the framework of a social media platform with users, posts, and connection.
