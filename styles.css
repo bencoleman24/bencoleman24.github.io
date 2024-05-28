@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #3498db;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    color: #2c3e50;
+    font-family: 'Roboto Slab', serif;
+}
+
+.project-card, .writing-sample {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3, .writing-sample h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.project-card p, .writing-sample p {
+    margin: 10px 0;
+}
+
+.project-card a, .writing-sample a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project-card a:hover, .writing-sample a:hover {
+    color: #2980b9;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
