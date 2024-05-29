@@ -72,6 +72,31 @@ h2 {
     color: #555;
 }
 
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-list a:hover {
+    color: #555;
+}
+
 footer {
     background: #333;
     color: white;
