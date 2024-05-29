@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
 
-body {
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background: #f7f9fc;
     color: #333;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
     line-height: 1.6;
 }
 
@@ -27,6 +32,7 @@ header p {
 }
 
 main {
+    flex: 1;
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
@@ -71,7 +77,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
