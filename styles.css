@@ -63,7 +63,8 @@ nav ul li a:hover, .active {
 }
 
 .detailed-header .location {
-    color: #007bff;
+    font-size: 0.9em;
+    color: #555;
 }
 
 .detailed-header .contact-links a {
@@ -106,67 +107,53 @@ h2 {
     color: #555;
 }
 
-.project-card {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    border: 1px solid #000;
+.education p {
+    color: #000;
+    margin-bottom: 15px;
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+.project-card.simplified {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
 }
 
 .project-card h3 {
     margin-top: 0;
-    font-size: 1.7em;
-    color: #000;
+    font-size: 1.5em;
+    color: #007bff;
 }
 
 .project-card p {
-    margin: 15px 0;
+    margin: 10px 0;
     color: #555;
 }
 
-.project-card a {
+.project-card .tags {
+    margin: 10px 0;
+}
+
+.tag {
+    display: inline-block;
+    background: #f0f0f0;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.project-link {
     color: #007bff;
     text-decoration: none;
+    font-weight: 500;
     transition: color 0.3s;
 }
 
-.project-card a:hover {
-    color: #0056b3;
-}
-
-.contact-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-list li {
-    margin: 0 15px;
-    font-size: 1.4em;
-    color: #555;
-}
-
-.contact-list i {
-    margin-right: 10px;
-    color: #000;
-}
-
-.contact-list a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.contact-list a:hover {
+.project-link:hover {
     color: #0056b3;
 }
 
