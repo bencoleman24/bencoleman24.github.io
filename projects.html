@@ -10,25 +10,72 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
+<body>
+    <header class="detailed-header">
+        <div class="header-content">
+            <h1>Benjamin Coleman</h1>
+            <p>Data Scientist & Aspiring Machine Learning Engineer</p>
+            <p class="location" style="font-size: 0.9em; color: #555;">Chicago | Boston</p>
+            <div class="contact-links">
+                <a href="mailto:benbcoleman08@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/benjamin-coleman02"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/bencoleman24"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card simplified">
-            <h3><a href="https://github.com/novoaj/GreenSpaceExplorer">Green Space Explorer (Backend/ML)</a></h3>
-            <p>A web application to discover parks and green spaces, focusing on backend and machine learning features.</p>
-            <p class="tags"><span class="tag">Python</span> <span class="tag">React</span> <span class="tag">Machine Learning</span></p>
-            <a href="https://demo-link.com" class="project-link">View Demo</a> | <a href="https://github.com/novoaj/GreenSpaceExplorer" class="project-link">View on GitHub</a>
+        <h2 class="section-title">Projects</h2>
+        <div class="project">
+            <h3>Music Recommendation Website</h3>
+            <ul>
+                <li>Developed a web-based application offering personalized music recommendations, allowing users to choose from different recommendation models like popularity-based, cosine similarity, k-means, and neural networks.</li>
+                <li>Implemented dynamic model selection and a feedback mechanism, enabling users to influence future recommendations.</li>
+                <li>Designed a user-friendly interface with HTML, CSS, and JavaScript, and built a robust backend using Python (Flask, Pandas, Scikit-Learn, Tensorflow, Spotipy).</li>
+            </ul>
+            <a href="https://github.com/bencoleman24/Music-Recommendation-Website" class="project-link"><i class="fab fa-github"></i> Link</a>
         </div>
-        <div class="project-card simplified">
-            <h3><a href="https://github.com/bencoleman24/Music-Recommendation-Website/tree/main">Music Recommendation Website</a></h3>
-            <p>A web-based music recommendation system allowing users to select models and receive song suggestions.</p>
-            <p class="tags"><span class="tag">Python</span> <span class="tag">Flask</span> <span class="tag">TensorFlow</span></p>
-            <a href="https://demo-link.com" class="project-link">View Demo</a> | <a href="https://github.com/bencoleman24/Music-Recommendation-Website/tree/main" class="project-link">View on GitHub</a>
+        <div class="project">
+            <h3>Amazon Product Sentiment Report Generator</h3>
+            <ul>
+                <li>Developed a tool for processing and analyzing Amazon product reviews, using advanced sentiment analysis and data visualization techniques.</li>
+                <li>Employed Python with libraries like Hugging Face Transformers, TextBlob, and OpenAI API for accurate sentiment analysis and report generation.</li>
+                <li>Created detailed, user-friendly reports in PDF format, integrating visual data representations using Matplotlib, Seaborn, and ReportLab.</li>
+            </ul>
+            <a href="https://github.com/bencoleman24/AmazonReviewInsights" class="project-link"><i class="fab fa-github"></i> Link</a>
         </div>
-        <div class="project-card simplified">
-            <h3><a href="https://github.com/bencoleman24/AmazonReviewInsights">Amazon Product Sentiment Report Generator</a></h3>
-            <p>Developed a tool for analyzing Amazon product reviews with sentiment analysis and data visualization.</p>
-            <p class="tags"><span class="tag">Python</span> <span class="tag">NLP</span> <span class="tag">Visualization</span></p>
-            <a href="https://demo-link.com" class="project-link">View Demo</a> | <a href="https://github.com/bencoleman24/AmazonReviewInsights" class="project-link">View on GitHub</a>
+        <div class="project">
+            <h3>2023 NBA All-Star Projections</h3>
+            <ul>
+                <li>Conducted a detailed analysis using historical NBA data to predict the 24 players to be selected for the 2023 NBA All-Star team.</li>
+                <li>Utilized Python for statistical modeling, including regression, classification, hyperparameter tuning, and model evaluation, to analyze player performance and team success metrics.</li>
+                <li>Achieved a model prediction accuracy of 70.8% for the 2023 All-Star selections and identified areas for improvement.</li>
+            </ul>
+            <a href="https://github.com/bencoleman24/2023-NBA-All-Star-Projections" class="project-link"><i class="fab fa-github"></i> Link</a>
+        </div>
+        <div class="project">
+            <h3>Climate Change Statistical Analysis</h3>
+            <ul>
+                <li>Analyzed temperature trends and emissions data over 50 years to explore climate change impacts.</li>
+                <li>Utilized Seasonal ARIMA forecasts, Multiple Linear Regression, Random Forests, and Lasso Regression for data analysis.</li>
+                <li>Project for Econometrics for Big Data course, presented findings to peers.</li>
+            </ul>
+            <a href="https://github.com/bencoleman24/Climate-Change-Statistical-Analysis" class="project-link"><i class="fab fa-github"></i> Link</a>
+        </div>
+        <div class="project">
+            <h3>Green Space Explorer (In Progress)</h3>
+            <ul>
+                <li>Developing a full-stack web application that allows users to discover parks and green spaces in their area through a generation of an interactive map.</li>
+                <li>This application will have the framework of a social media platform with users, posts, and connection.</li>
+                <li>Tools and Technologies include Python, React, HTML, CSS, Javascript, Google Maps API.</li>
+            </ul>
+            <a href="https://github.com/novoaj/GreenSpaceExplorer" class="project-link"><i class="fab fa-github"></i> Link</a>
         </div>
     </section>
 
