@@ -1,74 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Benjamin Coleman Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #f7f9fc;
+            color: #333;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Roboto Slab', serif;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #aaa;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            color: #333;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .project-card {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        .project-card p {
+            margin: 10px 0;
+        }
+
+        .project-card a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .project-card a:hover {
+            color: #555;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-list li {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .contact-list i {
+            margin-right: 10px;
+            color: #333;
+        }
+
+        .contact-list a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-list a:hover {
+            color: #555;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <h1>Benjamin Coleman Portfolio</h1>
-        <p>Hello! I'm an masters student at Boston University and a recent Data Science/Economics graduate from the University of Wisconsin-Madison. Take a look at some projects I've been working on!</p>
-    </header>
-    <main>
-        <section id="projects">
-            <h2>Programming/Data Science Projects</h2>
-            <div class="project-card">
-                <h3><a href="https://github.com/novoaj/GreenSpaceExplorer">Green Space Explorer (Backend/ML)</a></h3>
-                <p>With a classmate, developed a prototype of a full-stack web application that allows users to discover parks and green spaces in their area through a generation of an interactive map. I worked primarily on the websites backend and 2 ML features. </p>
-                <p><strong>Technologies:</strong> Python, React, HTML, CSS, Javascript, Google Maps API</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/bencoleman24/Music-Recommendation-Website/tree/main">Music Recommendation Website</a></h3>
-                <p>A music recommendation website that allows users to select a recommendation model, receive song suggestions based on their choice, and provide feedback on the recommendations.</p>
-                <p><strong>Technologies:</strong> Python (Flask, Pandas, Scikit-Learn, Tensorflow, Spotify API), HTML, CSS, JavaScript</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/bencoleman24/AmazonReviewInsights">Amazon Product Sentiment Report Generator</a></h3>
-                <p>Developed a tool for processing and analyzing Amazon product reviews, using advanced sentiment analysis and data visualization techniques.</p>
-                <p><strong>Technologies:</strong> Python, Hugging Face Transformers, TextBlob, OpenAI API, Matplotlib, Seaborn, ReportLab</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://nbviewer.org/github/bencoleman24/2023-NBA-All-Star-Projections/blob/main/NBA%20All-Star%20Projections.ipynb/">2023 NBA All-Star Projections</a></h3>
-                <p>Analyzing historical NBA data to predict 24 players to be selected to the All-Star team.</p>
-                <p><strong>Technologies:</strong> Python, Statistical Modeling (Regression, Classification, Hyperparameter Tuning, Model Evaluation)</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/bencoleman24/Intro-to-AI-Projects">Introduction to Artificial Intelligence Projects</a></h3>
-                <p>6 Projects from Introduction to Artificial Intelligence course (Spring 2024).</p>
-                <p><strong>Technologies:</strong> Python, PyTorch, PCA, Reinforcement Learning, Hierarchical Clustering, Probabilistic Modeling, Nueral Networks</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/bencoleman24/Intro-to-Big-Data-Systems">Introduction to Big Data Systems Projects</a></h3>
-                <p>7 Projects from Introduction to Big Data Systems course (Spring 2023).</p>
-                <p><strong>Technologies:</strong> Python, Docker, Hadoop, Spark, Kafka, Cassandra</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/bencoleman24/Climate-Change-Statistical-Analysis">Climate Change Statistical Analysis</a></h3>
-                <p>A statistical exploration of climate change trends, project for Econometrics for Big Data course.</p>
-                <p><strong>Technologies:</strong> R, Data Management and Preprocessing, Statistical Modeling (Time Series, ARIMA, Regression, Ensemble Learning, Regularization)</p>
-            </div>
-        </section>
-        <section id="writing">
-            <h2>Writing Sample</h2>
-            <div class="writing-sample">
-                <h3><a href="https://issuu.com/uwequilibrium.com/docs/eq_volume_13_spread_">An Overview of the Russia-Ukraine War and its Global Economic Consequences</a></h3>
-                <p>An article from the UW-Madison's Undergraduate Journal of Economics, Volume 13, about the Russia-Ukraine conflict and its Economic Consequences. (Pages 45-48, 24-25 on online version)</p>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <ul class="contact-list">
-                <li><i class="fas fa-envelope"></i> <a href="mailto:benbcoleman08@gmail.com">benbcoleman08@gmail.com</a></li>
-                <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/benjamin-coleman02">benjamin-coleman02</a></li>
-                <li><i class="fab fa-github"></i> <a href="https://github.com/bencoleman24">bencoleman24</a></li>
+        <h1>Benjamin Coleman</h1>
+        <p>Data Science Master's Student at Boston University</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-    </main>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently a master's student at Boston University, studying Data Science. I hold a Bachelor of Science in Data Science and Economics from the University of Wisconsin–Madison. I have a strong interest in using data to solve real-world problems, particularly in areas such as machine learning, data analysis, and data engineering. My experience includes research in stochastic gradient algorithms and Bayesian methods, as well as internships in data science and engineering.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Programming: Python, R, SQL, Spark, Docker</li>
+            <li>Key Skills: Data Analysis, Machine Learning, Statistics, Communication, Presentation</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3><a href="https://github.com/novoaj/GreenSpaceExplorer">Green Space Explorer (Backend/ML)</a></h3>
+            <p>With a classmate, developed a prototype of a full-stack web application that allows users to discover parks and green spaces in their area through a generation of an interactive map. I worked primarily on the website's backend and machine learning features.</p>
+            <p><strong>Technologies:</strong> Python, React, HTML, CSS, Javascript, Google Maps API</p>
+        </div>
+        <!-- Additional project cards here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:benbcoleman08@gmail.com">benbcoleman08@gmail.com</a></li>
+            <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/benjamin-coleman02">benjamin-coleman02</a></li>
+            <li><i class="fab fa-github"></i> <a href="https://github.com/bencoleman24">bencoleman24</a></li>
+        </ul>
+    </section>
+
     <footer>
-        <!-- No content in footer -->
+        <p>&copy; 2024 Benjamin Coleman</p>
     </footer>
 </body>
+
 </html>
