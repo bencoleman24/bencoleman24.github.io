@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #18bc9c;
+}
+
+.active {
+    color: #18bc9c;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #2c3e50;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 3px solid #18bc9c;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 2.2em;
+}
+
+.experience {
+    margin-bottom: 40px;
+}
+
+.experience h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    font-size: 1.7em;
+    color: #2c3e50;
+}
+
+.project-card p {
+    margin: 15px 0;
+    color: #555;
+}
+
+.project-card a {
+    color: #18bc9c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project-card a:hover {
+    color: #1abc9c;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list li {
+    margin: 0 15px;
+    font-size: 1.4em;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    color: #2c3e50;
+}
+
+.contact-list a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-list a:hover {
+    color: #18bc9c;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
