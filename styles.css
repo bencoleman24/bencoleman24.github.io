@@ -1,6 +1,74 @@
 /* styles.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
-
+.section-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.project-title-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.project-title-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+.project-link {
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+.project-link:hover {
+    text-decoration: underline;
+}
+.location {
+    font-size: 0.9em;
+    color: #555;
+}
+.contact-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.contact-links a:hover {
+    text-decoration: underline;
+}
+.detailed-header {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.header-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a.active {
+    color: #333;
+}
+.project {
+    margin-bottom: 30px;
+}
+.project ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+}
 html, body {
     height: 100%;
     margin: 0;
