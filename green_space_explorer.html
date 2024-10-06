@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Space Explorer - Benjamin Coleman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="detailed-header">
+            <div class="header-content">
+                <h1>Green Space Explorer</h1>
+                <p>A dynamic social platform to discover and share insights on green spaces.</p>
+                <div class="contact-links">
+                    <a href="https://github.com/novoaj/GreenSpaceExplorer" class="project-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="projects.html">&larr; Back to Projects</a></li>
+            </ul>
+        </nav>
+
+        <section id="overview">
+            <h2 class="section-title">Project Overview</h2>
+            <p>Green Space Explorer is a dynamic social platform that allows users to discover and share insights on green spaces like parks and trails. This platform leverages the Google Maps API to provide an intuitive way for users to find nearby parks. I worked specifically on the backend and machine learning aspects of the project.</p>
+            <p><a href="https://gse-web.azurewebsites.net/">Visit the Green Space Explorer Website</a></p>
+        </section>
+
+        <section id="features">
+            <h2 class="section-title">Features</h2>
+            <ul>
+                <li><strong>Interactive Map:</strong> Utilizes the Google Maps API to locate and explore green spaces in your vicinity.</li>
+                <li><strong>User Ratings and Posts:</strong> Users can share experiences and rate green spaces, helping others discover new locations.</li>
+                <li><strong>Secure User Management:</strong> Safeguards user credentials using advanced hashing techniques before storage in our MySQL database.</li>
+                <li><strong>Dynamic Content Sharing:</strong> Users can post comments and rate parks.</li>
+                <li><strong>Machine Learning:</strong> Developed two AI components: a content moderation system using a pre-trained model, and a park scoring feature incorporating sentiment analysis from user comments.</li>
+            </ul>
+        </section>
+
+        <section id="tech-stack">
+            <h2 class="section-title">Technologies Used</h2>
+            <p><strong>Frontend:</strong> React.js with Bootstrap and CSS for a polished, responsive user interface (developed by the frontend team).</p>
+            <p><strong>Backend:</strong> Python and Flask were used to build the API, which manages user interactions, database access, and external APIs.</p>
+            <p><strong>Databases:</strong> User data, posts, and ratings are stored securely in MySQL and MongoDB databases hosted on Microsoft Azure.</p>
+            <p><strong>Machine Learning:</strong> Implemented content moderation and sentiment analysis for calculating park scores based on user comments.</p>
+            <p><strong>Cloud:</strong></p>
+            <ul>
+                <li><strong>Flask API Deployment:</strong> Deployed to an Azure Virtual Machine, using nginx to handle requests and gunicorn for concurrent processing.</li>
+                <li><strong>Azure Cosmos DB:</strong> Used for NoSQL MongoDB data storage, supporting efficient querying based on "placeIds" to manage user interactions.</li>
+                <li><strong>Azure MySQL:</strong> Structured SQL solution for securely storing user authentication information.</li>
+                <li><strong>Azure App Service:</strong> Hosted the React frontend for a reliable, responsive user experience.</li>
+            </ul>
+        </section>
+
+        <section id="demo">
+            <h2 class="section-title">Demo Video</h2>
+            <p>Watch the demo video below to see the Green Space Explorer in action:</p>
+            <a href="https://github.com/user-attachments/assets/ea7d3462-098b-4252-a4b0-9351fd56c670">Demo Video Link</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Benjamin Coleman</p>
+        </footer>
+    </div>
+</body>
+
+</html>
