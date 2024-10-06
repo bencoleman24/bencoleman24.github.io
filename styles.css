@@ -1,5 +1,13 @@
 /* styles.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Subtle white border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
 
 .container {
     margin: 0 auto;
