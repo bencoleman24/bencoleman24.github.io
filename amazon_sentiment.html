@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Sentiment Report Generator - Benjamin Coleman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="detailed-header">
+            <div class="header-content">
+                <h1>Amazon Product Sentiment Report Generator</h1>
+                <p>A prototype tool to speed up, automate, and improve the decision-making process of purchasing a product online.</p>
+                <div class="contact-links">
+                    <a href="https://github.com/bencoleman24/AmazonSentimentalReports" class="project-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="projects.html">&larr; Back to Projects</a></li>
+            </ul>
+        </nav>
+
+        <section id="overview">
+            <h2 class="section-title">Project Overview</h2>
+            <p>This tool efficiently processes and analyzes customer reviews from Amazon products. It leverages state-of-the-art sentiment analysis and data processing techniques to parse through vast amounts of text, extracting the most pertinent information and compiling it into an easily digestible format.</p>
+            <p><strong>Note:</strong> This is a prototype and may not be consistently reproducible due to certain limitations and dependencies.</p>
+        </section>
+
+        <section id="how-it-works">
+            <h2 class="section-title">How It Works</h2>
+            <p>Inputting an Amazon product link into the Python script initiates a process of fetching and analyzing customer reviews, which then creates an informative and detailed report. This report showcases key insights, sentiment scores, and trends drawn from the review data.</p>
+        </section>
+
+        <section id="features">
+            <h2 class="section-title">Features</h2>
+            <ul>
+                <li><strong>Advanced Sentiment Analysis:</strong> Utilizes NLP techniques to determine the sentiment of user reviews, gathering key takeaways and numeric sentiment score values.</li>
+                <li><strong>Insightful Data Visualization:</strong> Generates clear, intuitive charts and graphs to represent the data, making it easy to understand overall sentiment trends.</li>
+                <li><strong>Comprehensive Reporting:</strong> Produces detailed PDF reports summarizing the findings, complete with visual aids and key takeaways.</li>
+            </ul>
+        </section>
+
+        <section id="example-report">
+            <h2 class="section-title">Example Report</h2>
+            <p>Below is an example of the report generated from a product link:</p>
+            <a href="https://github.com/bencoleman24/AmazonSentimentalReports/assets/97268624/c86abd3e-4b04-4195-ae8c-c4bdc89dc483">
+                <img src="https://github.com/bencoleman24/AmazonSentimentalReports/assets/97268624/c86abd3e-4b04-4195-ae8c-c4bdc89dc483" width="550" alt="Report Screenshot"/>
+            </a>
+        </section>
+
+        <section id="usage">
+            <h2 class="section-title">Usage</h2>
+            <p>To generate a report, follow these steps:</p>
+            <ol>
+                <li>Set up your .env file in the project root with your RapidAPI and OpenAI API keys.</li>
+                <li>Run the script.</li>
+                <li>Enter the Amazon product URL when prompted.</li>
+                <li>Enjoy the PDF report, which will be saved in the working directory.</li>
+            </ol>
+        </section>
+
+        <section id="limitations">
+            <h2 class="section-title">Limitations and Scope</h2>
+            <p>There are several limitations to this prototype tool:</p>
+            <ul>
+                <li>Due to rate limits for the API, it currently processes up to 10 pages of reviews (modifiable).</li>
+                <li>Specifically made for Amazon products, but could be adapted for other e-commerce sites with altered API utilization.</li>
+                <li>Works best for products with a substantial number of reviews.</li>
+                <li>Models may inaccurately classify the sentiment of reviews; scores are insightful but not consistently accurate.</li>
+            </ul>
+        </section>
+
+        <section id="tools">
+            <h2 class="section-title">Tools and Technologies</h2>
+            <h3>Report Generation</h3>
+            <ul>
+                <li><strong>Matplotlib & Seaborn:</strong> Used to create charts and graphs for visualization.</li>
+                <li><strong>ReportLab:</strong> Used for generating the final PDF report, allowing for complex layouts, embedding visualizations, statistics, and text.</li>
+            </ul>
+            <h3>Analysis</h3>
+            <ul>
+                <li><strong>Hugging Face Transformers:</strong> The primary tool for sentiment analysis, known for their state-of-the-art performance in NLP tasks.</li>
+                <li><strong>TextBlob:</strong> Supplementary tool for aggregate sentiment analysis, providing a polarity score to represent the overall sentiment tone of a text.</li>
+                <li><strong>OpenAI API:</strong> Leveraged for additional NLP tasks, such as summarizing key points from reviews.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Benjamin Coleman</p>
+        </footer>
+    </div>
+</body>
+
+</html>
