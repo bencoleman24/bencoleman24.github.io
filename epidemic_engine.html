@@ -1,4 +1,3 @@
-<!-- music_recommendation_website.html -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,4 +27,57 @@
         </nav>
 
         <section id="overview">
-           
+            <h2>Overview</h2>
+            <p>The Epidemic Engine is an integrated system designed to ingest, process, and analyze real-time health event data. Leveraging tools like Kafka, PostgreSQL, and PySpark, it enables anomaly detection through machine learning and provides live data visualization via a dynamic dashboard.</p>
+        </section>
+
+        <section id="key-components">
+            <h2>Key Components</h2>
+            <ul>
+                <li><strong>Deployment:</strong> The pipeline is orchestrated using Podman Compose, ensuring reliability through health checks and automatic restarts. Services include Kafka, PostgreSQL, Consumer, Predictor, and a Visualization Dashboard.</li>
+                <li><strong>Kafka:</strong> Streams health events continuously to the Consumer service.</li>
+                <li><strong>Consumer Service:</strong> Processes Kafka events and stores them in the PostgreSQL database.</li>
+                <li><strong>PostgreSQL Database:</strong> Hosts tables for health events and anomaly predictions.</li>
+                <li><strong>Model Training:</strong> Uses PySpark to train an anomaly detection model on historical data, achieving >95% accuracy.</li>
+                <li><strong>Predictor Service:</strong> Classifies recent events as anomalies using the trained model, updating every 10 minutes.</li>
+                <li><strong>Visualization Dashboard:</strong> Displays live and historical health event data, including real-time map-based visualizations and interactive charts.</li>
+            </ul>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>End-to-end pipeline integrating real-time data ingestion, storage, analysis, and visualization.</li>
+                <li>Live dashboard updated every 10 seconds with new streamed data.</li>
+                <li>High-accuracy anomaly detection using a pre-trained ML model.</li>
+                <li>Interactive visualizations for insights into health event trends and anomalies.</li>
+            </ul>
+        </section>
+
+        <section id="usage">
+            <h2>How to Use</h2>
+            <ol>
+                <li>Navigate to the project directory and build the pipeline using <code>podman-compose build</code> and <code>podman-compose up</code>.</li>
+                <li>Verify that all services are running and healthy using <code>podman ps</code>.</li>
+                <li>Access the live dashboard at <a href="http://localhost:5001">http://localhost:5001</a>.</li>
+                <li>Query PostgreSQL data for insights into health events and anomaly predictions.</li>
+            </ol>
+        </section>
+
+        <section id="troubleshooting">
+            <h2>Troubleshooting</h2>
+            <ul>
+                <li>Ensure all containers are healthy by checking logs with <code>podman logs</code>.</li>
+                <li>If predictions are missing, verify the logs for the Predictor service.</li>
+                <li>If the visualization dashboard is inaccessible, confirm the Visualization container status and dependencies.</li>
+                <li>Check Kafka logs if it appears unhealthy or ports are blocked.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Benjamin Coleman. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
