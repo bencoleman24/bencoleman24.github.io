@@ -33,16 +33,11 @@
 
         <section id="key-components">
             <h2>Key Components</h2>
-            <ul>
-                <li><strong>Deployment:</strong> The pipeline is orchestrated using Podman Compose, ensuring reliability through health checks and automatic restarts. Services include Kafka, PostgreSQL, Consumer, Predictor, and a Visualization Dashboard.</li>
-                <li><strong>Kafka:</strong> Streams health events continuously to the Consumer service.</li>
-                <li><strong>Consumer Service:</strong> Processes Kafka events and stores them in the PostgreSQL database.</li>
-                <li><strong>PostgreSQL Database:</strong> Hosts tables for health events and anomaly predictions.</li>
-                <li><strong>Model Training:</strong> Uses PySpark to train an anomaly detection model on historical data, achieving >95% accuracy.</li>
-                <li><strong>Predictor Service:</strong> Classifies recent events as anomalies using the trained model, updating every 10 minutes.</li>
-                <li><strong>Visualization Dashboard:</strong> Displays live and historical health event data, including real-time map-based visualizations and interactive charts.</li>
-            </ul>
+            <p>
+                The pipeline is orchestrated using Podman Compose, ensuring reliability through health checks and automatic restarts. Key services include Kafka, PostgreSQL, Consumer, Predictor, and a Visualization Dashboard. Kafka streams health events continuously to the Consumer service, which processes these events and stores them in the PostgreSQL database. The PostgreSQL database hosts tables for health events and anomaly predictions. Model training is conducted using PySpark, achieving over 95% accuracy in an anomaly detection model trained on historical data. The Predictor service classifies recent events as anomalies using the trained model, with updates occurring every 10 minutes. Finally, the Visualization Dashboard provides live and historical health event data, featuring real-time map-based visualizations and interactive charts.
+            </p>
         </section>
+
 
         <section id="features">
             <h2>Features</h2>
